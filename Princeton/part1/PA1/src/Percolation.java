@@ -9,7 +9,6 @@ public class Percolation {
     private final int[] dy = {1, -1, 0, 0};
     private int TOP;
 
-
     public Percolation(int N) {
         // create N-by-N grid, with all sites blocked
         if (N <= 0) {
